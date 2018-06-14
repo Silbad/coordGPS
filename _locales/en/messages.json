@@ -1,0 +1,10 @@
+{
+    "coordGPSName": {
+        "message": "coordGPS",
+        "description": "Nom de l'extension"
+    },
+    "coordGPSDescription": {
+        "message": "Récupérer les coordonnées GPS à partir d'une adresse et vis et versa",
+        "description": "Description de l'extension"
+	}
+}

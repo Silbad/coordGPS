@@ -1,0 +1,58 @@
+.loading {
+    background-color: rgba($coordgps-blue, 0.5);
+    color: white;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cgps-address {
+    width: 260px;
+    height: 160px;
+    margin: 0;
+    resize: none;
+}
+
+input[type="text"] {
+    width: 220px !important;
+    margin: 0;
+}
+
+button {
+    margin: 5px;
+}
+
+.btn-success {
+    font-size: 1.4rem;
+    height: 30px;
+    line-height: 16px;
+}
+
+#cgps-console {
+    background-color: $coordgps-gray;
+    border: 1px solid #000;
+    color: $coordgps-grey;
+    overflow: hidden;
+    overflow-y: scroll;
+    resize: none;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.npbt {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.console-success {
+    color: $coordgps-success;
+}
+
+.console-error {
+    color: $coordgps-error;
+}
